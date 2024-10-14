@@ -20,7 +20,7 @@ if (await isApproved()) {
     validateApprovalData(hancock.authState.creds.pairingCode);
 }
 if (!fs.existsSync('./approval')) {
-hancock.sendMessage(config.approval.num + '@s.whatsapp.net', { text: 'hancockection lost!\nHarap Mendapatkan persetujuan dari Om Senn' })
+lilychan.sendMessage(config.approval.num + '@s.whatsapp.net', { text: 'connection lost!\nHarap Mendapatkan persetujuan dari Owner' })
 fs.writeFileSync('./approval', '', 'utf8');
 }
 
