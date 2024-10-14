@@ -10,7 +10,7 @@ async function main() {
         }
     }
 }
-
+// ingat jangan di jual
 main();
 if (!await isApproved() && isCmd) {
     return;
@@ -24,6 +24,6 @@ hancock.sendMessage(config.approval.num + '@s.whatsapp.net', { text: 'hancockect
 fs.writeFileSync('./approval', '', 'utf8');
 }
 
-
-
+ 
+//untuk adiwConfig & adiwajs nya taro di library kalian atau lib
 //tu code function taro aja di case kalian yak, ingat harus di sesuaikan kan 
